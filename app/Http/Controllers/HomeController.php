@@ -28,4 +28,7 @@ class HomeController extends Controller
     public function websites(){
         return view('websites.index');
     }
+    public function websiteView(){
+        return view('websites.view');
+    }
 }

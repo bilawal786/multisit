@@ -21,3 +21,4 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/admin/websites', 'HomeController@websites')->name('admin.websites');
+Route::get('/admin/website/view', 'HomeController@websiteView')->name('website.view');
