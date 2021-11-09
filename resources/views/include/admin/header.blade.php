@@ -13,6 +13,13 @@
     <!-- Custom Css -->
     <link rel="stylesheet" href="{{asset('admin/assets/css/main.css')}}">
     <link rel="stylesheet" href="{{asset('admin/assets/css/color_skins.css')}}">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.css">
+    <meta name="csrf-token" content="{{ csrf_token() }}" />
+    <style>
+        .row {
+            width: 100%;
+        }
+    </style>
 </head>
 <body class="theme-black">
 <!-- Page Loader -->

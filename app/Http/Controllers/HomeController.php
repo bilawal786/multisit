@@ -25,10 +25,5 @@ class HomeController extends Controller
     {
         return view('home');
     }
-    public function websites(){
-        return view('websites.index');
-    }
-    public function websiteView(){
-        return view('websites.view');
-    }
+
 }
